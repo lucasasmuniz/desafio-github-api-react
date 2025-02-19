@@ -10,6 +10,7 @@
   --color-font-secondary: #FFF;
   --color-font-tertiary: #7E7E7E;
   --color-font-quaternary: #737373;
+  --color-font-quinary: #1890FF;
   
   --color-bg-button: #1890FF;
   --color-bg-button-hover: #1580e4;
@@ -32,7 +33,6 @@ main{
 }
 
 a, a:hover{
-  color: unset;
   text-decoration: none;
 }
 
@@ -66,4 +66,7 @@ a, a:hover{
 
 .mt-54{
   margin-top: 54px;
+}
+.mb-54{
+  margin-bottom: 54px;
 }

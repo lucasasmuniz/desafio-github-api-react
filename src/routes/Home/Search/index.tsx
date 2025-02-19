@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import CardFindGithub from "../../../components/CardFindGithub";
 
 export default function Search() {
@@ -6,6 +7,7 @@ export default function Search() {
         <main className="mt-54">
             <section className="container">
                 <CardFindGithub />
+                <Outlet />
             </section>
         </main>
     </>
