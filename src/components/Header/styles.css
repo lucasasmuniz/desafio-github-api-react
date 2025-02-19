@@ -1,0 +1,13 @@
+header {
+  height: 62px;
+  background-color: var(--color-bg-secondary);
+  padding: 0 41px;
+  display: flex;
+  align-items: center;
+}
+
+nav h2 {
+  color: var(--color-font-secondary);
+  font-size: 24px;
+  font-weight: 500;
+}

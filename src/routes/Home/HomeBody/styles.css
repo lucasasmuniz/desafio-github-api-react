@@ -1,0 +1,11 @@
+.title{
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--color-font-primary);
+}
+
+.sub-title{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-font-tertiary);
+}
