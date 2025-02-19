@@ -16,7 +16,7 @@ export default function CardGitHub({user}: Props) {
         <div className="card-right">
             <h4>Informações</h4>
             <div className="info-user-container">
-                <div className="info-user">
+                <div className="info-user info-perfil">
                     <p><span>Perfil: </span><a target="_blank" href={user.url}>{user.url}</a></p>
                 </div>
                 <div className="info-user">

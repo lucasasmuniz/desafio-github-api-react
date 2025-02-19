@@ -1,5 +1,13 @@
 .error-warning{
     font-weight: 500;
-    font-size: 38px;
+    font-size: 24px;
     margin-top: 10px;
+    text-align: center;
+}
+
+@media(min-width:576px){
+    .error-warning{
+        font-size: 38px;
+        text-align: left;
+    }
 }

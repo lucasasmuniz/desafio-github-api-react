@@ -1,48 +1,90 @@
-.card-github-container{
-    background-color: var(--color-bg-quaternary);
-    padding: 44px 35px;
+.card-github-container {
+  background-color: var(--color-bg-quaternary);
+  padding: 44px 35px;
+  border-radius: 8px;
+}
+
+.card-left {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card-left img {
+  width: 150px;
+  height: 150px;
+}
+
+.card-right {
+  border-radius: 6px;
+  border: 1px solid var(--color-border);
+  background-color: var(--color-bg-primary);
+  padding: 10px 14px;
+  width: 100%;
+}
+
+.card-right h4 {
+  text-align: center;
+  color: var(--color-font-quinary);
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.info-user-container {
+  display: grid;
+  grid-gap: 5px;
+}
+
+.info-user {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 0 10px;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  font-size: 12px;
+  color: var(--color-font-quaternary);
+}
+
+.info-perfil {
+  display: none;
+}
+
+.info-user span {
+  font-weight: 700;
+}
+
+@media (min-width: 992px) {
+  .card-right h4 {
+    font-size: 20px;
+  }
+  .info-user {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-github-container {
     display: flex;
-    border-radius: 8px;
-}
-
-.card-left{
+  }
+  .card-left {
+    margin-bottom: 0;
     margin-right: 30px;
+  }
 }
 
-.card-left img{
+@media (min-width: 576px) {
+  .card-right h4 {
+    text-align: left;
+  }
+  .info-user {
+    height: 40px;
+  }
+  .info-perfil {
+    display: flex;
+  }
+  .card-left img {
     width: 247px;
     height: 247px;
-}
-
-.card-right{
-    border-radius: 6px;
-    border: 1px solid var(--color-border);
-    background-color: var(--color-bg-primary);
-    padding: 10px 14px;
-    width: 100%;
-}
-
-.card-right h4{
-    color: var(--color-font-quinary);
-    font-weight: 500;
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-
-.info-user-container{
-    display: grid;
-    grid-gap: 5px;
-}
-
-.info-user{
-    height: 40px;
-    padding: 8px 10px;
-    border: 1px solid var(--color-border);
-    border-radius: 4px;
-    font-size: 16px;
-    color: var(--color-font-quaternary);
-}
-
-.info-user span{
-    font-weight: 700;
+  }
 }
